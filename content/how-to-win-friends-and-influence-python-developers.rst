@@ -7,4 +7,4 @@ How to win friends and influence Zimbo developers
 :category: community
 :slug: i-am-looking-for-work
 :authors: Humphrey
-:status: published
+:status: draft
