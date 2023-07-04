@@ -1,12 +1,20 @@
 AUTHOR = "Humphrey"
 SITENAME = "Hamub"
-SITEURL = ""
+# SITEURL = "https://hbutau.github.io"
 
+# PORT = 8080
+# BIND = "0.0.0.0"
+
+# DISQUS_SITENAME = ""
+# GITHUB_URL = "https://github.com/hbutau"
+# TWITTER_USERNAME = "hamub"
+
+INDEX_SAVE_AS = "posts.html"
 TITLE = "hamub"
-BIO = "Open Sourcerer who is learning how to run a marathon"
+BIO = "Blog by Humphrey Butau. Loves open source software programming and 🏃runnning"
 THEME = "themes/pelican-hyde"
 COLOR_THEME = "08"
-PROFILE_IMAGE = "hamub.jpeg"
+PROFILE_IMAGE = "hamub-pic.jpg"
 # PROFILE_IMAGE = ""
 STATIC_PATHS = ["images"]
 
@@ -23,8 +31,10 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+DISPLAY_PAGES_ON_MENU = True
+
 MENUITEMS = (
-        ('about', 'https://hbutau.github.io/about'),
+        ("slides", "https://slides.com"),
         )
 
 # Blogroll
@@ -39,11 +49,17 @@ LINKS = (
 SOCIAL = (
     ("twitter", "htttps://twitter.com/hamub"),
     ("github", "https://github.com/hbutau"),
+    ("stackoverflow", "https://stackoverflow.com/hbutau"),
 )
+
+PYTHON_LINK = '<a href="https://python.org">Python</a>'
+PELICAN_LINK = '<a href="https://getpelican.org">Pelican</a>'
+
+FOOTER_TEXT = f"Proudly powerd by {PELICAN_LINK} which takes great advantage of {PYTHON_LINK}" # noqa
 
 TWITTER_USERNAME = "hamub"
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 8
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
