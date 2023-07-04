@@ -47,9 +47,10 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ("twitter", "htttps://twitter.com/hamub"),
+    ("mastodon", "https://fosstodon.org/@hamub"),
     ("github", "https://github.com/hbutau"),
-    ("stackoverflow", "https://stackoverflow.com/hbutau"),
+    ("gitlab", "https://gitlab.com/hbutau"),
+    ("stack-overflow", "https://stackoverflow.com/users/5022711/humphrey-butau"),
 )
 
 PYTHON_LINK = '<a href="https://python.org">Python</a>'
