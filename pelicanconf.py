@@ -47,6 +47,7 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
+        ("envelope", "mailto:hbutau35@gmail.com"),
     ("mastodon", "https://fosstodon.org/@hamub"),
     ("github", "https://github.com/hbutau"),
     ("gitlab", "https://gitlab.com/hbutau"),
