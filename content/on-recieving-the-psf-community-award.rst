@@ -1,5 +1,5 @@
-The psf community service award
-###############################
+On Recieving The PSF Community Service Award
+############################################
 
 :date: 2023-07-02 10:20
 :modified: 2023-07-02 18:40
@@ -10,6 +10,7 @@ The psf community service award
 :summary: Short version for index and feeds
 :status: draft
 
-skdfksdjfksdjfksdjfksdjfs
-sdkfjslkdfjksdfjksdjf
-r
+.. image:: ./images/plaque.jpg
+
+
+

@@ -11,7 +11,7 @@ SITENAME = "Hamub"
 
 INDEX_SAVE_AS = "posts.html"
 TITLE = "hamub"
-BIO = "Blog by Humphrey Butau. Loves open source software programming and 🏃runnning"
+BIO = "Blog by Humphrey Butau. Loves open source software programming and 🏃runnning" # noqa
 THEME = "themes/pelican-hyde"
 COLOR_THEME = "08"
 PROFILE_IMAGE = "hamub-pic.jpg"
@@ -33,9 +33,7 @@ AUTHOR_FEED_RSS = None
 
 DISPLAY_PAGES_ON_MENU = True
 
-MENUITEMS = (
-        ("slides", "https://slides.com"),
-        )
+MENUITEMS = (("slides", "https://slides.com"),)
 
 # Blogroll
 LINKS = (
@@ -47,17 +45,17 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-        ("envelope", "mailto:hbutau35@gmail.com"),
+    ("envelope", "mailto:hbutau35@gmail.com"),
     ("mastodon", "https://fosstodon.org/@hamub"),
     ("github", "https://github.com/hbutau"),
     ("gitlab", "https://gitlab.com/hbutau"),
-    ("stack-overflow", "https://stackoverflow.com/users/5022711/humphrey-butau"),
+    ("stack-overflow", "https://stackoverflow.com/users/5022711/humphrey-butau"), # noqa
 )
 
 PYTHON_LINK = '<a href="https://python.org">Python</a>'
 PELICAN_LINK = '<a href="https://getpelican.org">Pelican</a>'
 
-FOOTER_TEXT = f"Proudly powerd by {PELICAN_LINK} which takes great advantage of {PYTHON_LINK}" # noqa
+FOOTER_TEXT = f"Proudly powerd by {PELICAN_LINK} which takes great advantage of {PYTHON_LINK}"  # noqa
 
 TWITTER_USERNAME = "hamub"
 
