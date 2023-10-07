@@ -8,7 +8,7 @@ On Recieving The PSF Community Service Award
 :slug: on-recieving-the-psf-community-service-award
 :authors: Humphrey
 :summary: Short version for index and feeds
-:status: draft
+:status: hidden
 
 .. image:: ./images/plaque.jpg
 
