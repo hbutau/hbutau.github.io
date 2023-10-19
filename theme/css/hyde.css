@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "Source Code Pro";
+  font-family: "Source Code Pro", serif;
   /* font-family: sans-serif; */
 }
 @media (min-width: 48em) {
