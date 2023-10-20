@@ -32,8 +32,12 @@
  */
 
 html {
-  font-family: "Source Code Pro", serif;
-  /* font-family: sans-serif; */
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #1E1E1E
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 @media (min-width: 48em) {
   html {
