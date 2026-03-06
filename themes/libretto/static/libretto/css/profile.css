@@ -1,7 +1,7 @@
 /* Profile section on the home page */
 .profile-section {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 2em;
     margin-bottom: 2em;
 }
