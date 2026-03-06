@@ -9,6 +9,7 @@ Home
 :save_as: index.html
 :authors: Humphrey
 :status: published
+:template: home
 
 .. *"Programs must be written for people to read, and only incidentally for machines to execute."*
 ..     *– Harold Abelson, Structure and Interpretation of Computer Programs*

@@ -1,0 +1,23 @@
+/* Profile section on the home page */
+.profile-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 3px solid #e0e0e0;
+}
+
+@media (max-width: 640px) {
+    .profile-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
