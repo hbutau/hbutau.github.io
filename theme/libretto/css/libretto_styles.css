@@ -759,12 +759,12 @@ body {
 
 .site-branding h1 {
     color: #a09a92;
-    font-family: "Playfair Display";
-    font-size: 36px;
-    font-size: 3.6rem;
+    font-family: "Tangerine", cursive;
+    font-size: 46px;
+    font-size: 4.6rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.2;
     margin: 0;
 }
 
