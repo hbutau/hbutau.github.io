@@ -12,9 +12,9 @@ SITEURL = ""
 INDEX_SAVE_AS = "posts.html"
 TITLE = "hamub"
 BIO = "Blog by Humphrey Butau. Community Organizer, Loves open source software programming and 🏃running"  # noqa
-THEME = "themes/pelican-hyde"
-COLOR_THEME = "08"
+THEME = "themes/libretto"
 PROFILE_IMAGE = "hamub-pic.jpg"
+MASTODON_URL = "https://fosstodon.org/@hamub"
 STATIC_PATHS = ["images"]
 
 PATH = "content"
