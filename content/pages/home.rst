@@ -1,6 +1,5 @@
-
 My home on the internet.
-#########################
++++++++++++++++++++++++++
 
 :date: 2023-06-30 10:20
 :tags: python,django,community
