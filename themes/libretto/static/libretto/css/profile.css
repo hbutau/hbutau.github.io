@@ -5,6 +5,12 @@
     max-width: 960px;
 }
 
+/* Style the page title heading */
+.site-content > h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
 .profile-section {
     display: flex;
     align-items: center;
