@@ -26,6 +26,7 @@
 /* Reduce the large epigraph/blockquote to a more readable size */
 .profile-bio blockquote {
     font-size: 1.6rem;
+    margin-bottom: 2em;
 }
 
 .profile-bio blockquote::before {
