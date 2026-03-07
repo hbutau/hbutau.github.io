@@ -1,6 +1,6 @@
 
-Home
-####
+My home on the internet.
+#########################
 
 :date: 2023-06-30 10:20
 :tags: python,django,community
@@ -11,19 +11,19 @@ Home
 :status: published
 :template: home
 
-.. *"Programs must be written for people to read, and only incidentally for machines to execute."*
-..     *– Harold Abelson, Structure and Interpretation of Computer Programs*
 
----
-Me
----
+.. epigraph::
 
-👋 Hi, I am Humphrey and welcome to my site
+   Programs must be written for people to read, and only incidentally for machines to execute.
+   -- Harold Abelson, *Structure and Interpretation of Computer Programs*
 
-I use 🐍 python and 🦄 django to build the 🕸web.
+Hi, I'm Humphrey 👋
+I'm a Python and Django developer who believes the real power of technology lies in the people who build it together.
+Most of what I do happens outside the editor organizing local meetups, helping put together events like DjangoCon Africa and PyCon Zimbabwe, and finding ways to lower the barrier for newcomers joining the Python and Django ecosystem.
 
-I am a `Python Software Foundation(PSF) Fellow <https://www.python.org/psf/fellows-roster>`_ and a member of the  `Django Software Foundation(DSF) <https://www.djangoproject.com/foundation/individual-members>`_.
+I'm a `Fellow of the Python Software Foundation <https://www.python.org/psf/fellows-roster>`_ and a member of the `Django Software Foundation <https://www.djangoproject.com/foundation/individual-members>`_, communities that have given me far more than I could ever give back.
+Open source, to me, isn't just about code. It's about showing up in forums, at conferences, in mentorship conversations, and in the unglamorous work of keeping communities running.
 
-I am a believer in and contributor to open source.My contributions are not  only code related. I also volunteer to organize local meetups and international conferences such as `DjangoCon Africa <https://2023.djangoconafrica.com>`_ and `PyCon Zimbabwe <https://zim.pycon.org>`_. As recognition for my service to the Python community I was awarded the `Python Software Foundation Q4 2020 Community Service Award <https://pyfound.blogspot.com/2021/11/humphrey-butau-awarded-psf-community.html>`_.
+The PSF also recognized my contributions with a `Python Software Foundation Q4 2020 Community Service Award <https://pyfound.blogspot.com/2021/11/humphrey-butau-awarded-psf-community.html>`_, which I'm grateful for and still humbled by.
 
-I also enjoy trail running and tinkering with electronics especially switch mode power supply systems.
+When I step away from screens, you'll find me on a long run or pulling apart a switch mode power supply to see how it ticks.
