@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}" prefix="og: http://ogp.me/ns#">
+	<head>
+		<link href="http://gmpg.org/xfn/11" rel="profile">
+		{% if MASTODON_URL %}
+        <link rel="me" href="{{ MASTODON_URL }}">
+		{% endif %}
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+		<!-- Metadata -->
+		{% block metadata %}
+			<meta name="description" content="{{ BIO }}" />
+			<meta property="og:description" content="{{ BIO }}" />
+			<meta property="og:title" content="{{ SITENAME }}" />
+			<meta property="og:type" content="website" />
+			<meta property="og:url" content="{{ SITEURL }}" />
+		{% endblock %}
+
+		<!-- Enable responsiveness on mobile devices-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+		<title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Libre+Baskerville|Montserrat|Playfair+Display|Tangerine">
+		<style>
+@font-face {
+font-family: "libretto-icons";
+src:url({{ SITEURL }}/{{ THEME_STATIC_DIR }}/libretto/fonts/libretto-icons.eot);
+src:url({{ SITEURL }}/{{ THEME_STATIC_DIR }}/libretto/fonts/libretto-icons.eot?#iefix) format("embedded-opentype"),
+url({{ SITEURL }}/{{ THEME_STATIC_DIR }}/libretto/fonts/libretto-icons.woff) format("woff"),
+url({{ SITEURL }}/{{ THEME_STATIC_DIR }}/libretto/fonts/libretto-icons.ttf) format("truetype"),
+url({{ SITEURL }}/{{ THEME_STATIC_DIR }}/libretto/fonts/libretto-icons.svg#libretto-icons) format("svg");
+font-weight: normal;
+font-style: normal;
+}
+		</style>
+		<link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/libretto/css/libretto_styles.css">
+
+		<!-- Feeds -->
+		{% include 'fragments/feeds.html' %}
+
+		<!-- Analytics -->
+
+	</head>
+
+	<body>
+    <!-- Navigation bar -->
+    <header class="nav-bar">
+        <div class="site-branding">
+            <h1 class="site-title">
+                <a href="{{ SITEURL }}/" title="{{ SITENAME }}" rel="home">{{ SITENAME }}</a>
+            </h1>
+        </div>
+        <nav class="site-navigation" role="navigation">
+            <div class="menu-toggle">
+                <span class="mobile-site-title">{{ SITENAME }}</span>
+            </div>
+            <ul class="menu">
+                <li><a href="{{ SITEURL }}/{{ INDEX_SAVE_AS if INDEX_SAVE_AS else 'index.html' }}">Posts</a></li>
+                {% for p in pages %}{% if p.save_as != 'index.html' %}
+                <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                {% endif %}{% endfor %}
+                {% for title, url in MENUITEMS %}
+                <li><a href="{{ url }}">{{ title }}</a></li>
+                {% endfor %}
+                <li><a href="{{ SITEURL }}/">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+		<div class="site-content">
+			{% block content %}
+			{% endblock %}
+		</div>
+
+    <!-- Page Footer -->
+    <section class="footer-sidebar clear" role="complementary">
+        <div class="widget-block">
+            <aside class="widget">
+                <h2 class="widget-title">{{ SITENAME }}</h2>
+                <div class="widget-text">{{ BIO }}</div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Site Attributions -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="site-info">
+            <p>{{ FOOTER_TEXT }}</p>
+        </div>
+    </footer>
+	</body>
+</html>

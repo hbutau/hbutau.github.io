@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - {{ article.title }}{% endblock %}
+
+{% block metadata %}
+	<meta name="description" content="{{ BIO }}" />
+	<meta property="og:description" content="{{ BIO }}" />
+	<meta property="og:title" content="{{ article.title }}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="{{ SITEURL }}/{{ article.url }}" />
+{% endblock %}
+
+{% block content %}
+<article class="format-standard libretto-long-form">
+	<div class="entry-content">
+	<div class="post">
+	<h1 class="post-title entry-title">{{ article.title }}</h1>
+	<span class="entry-meta">{{ article.locale_date }}</span>
+	{{ article.content }}
+
+	{% if article.tags %}
+		<span class="entry-meta tag-list">
+			Tags:
+			<ul>
+				{% for tag in article.tags %}
+					<li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
+				{% endfor %}
+			</ul>
+		</span>
+	{% endif %}
+
+</div>
+	</div>
+</article>
+{% endblock %}
