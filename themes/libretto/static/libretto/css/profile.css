@@ -1,7 +1,13 @@
 /* Profile section on the home page */
+
+/* Widen the content area on the home page (this file is only loaded there) */
+.site-content {
+    max-width: 960px;
+}
+
 .profile-section {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 2em;
     margin-bottom: 2em;
 }
@@ -15,7 +21,21 @@
     border: 3px solid #e0e0e0;
 }
 
+/* Reduce the large epigraph/blockquote to a more readable size */
+.profile-bio blockquote {
+    font-size: 1.6rem;
+}
+
+.profile-bio blockquote::before {
+    font-size: 8rem;
+    top: -15px;
+}
+
 @media (max-width: 640px) {
+    .site-content {
+        max-width: none;
+    }
+
     .profile-section {
         flex-direction: column;
         align-items: center;
