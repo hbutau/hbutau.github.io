@@ -1,0 +1,52 @@
+/* Profile section on the home page */
+
+/* Widen the content area on the home page (this file is only loaded there) */
+.site-content {
+    max-width: 960px;
+}
+
+/* Style the page title heading */
+.site-content > h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 2em;
+    background-color: #faf9f5;
+    padding: 1.5em;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 3px solid #e0e0e0;
+}
+
+/* Reduce the large epigraph/blockquote to a more readable size */
+.profile-bio blockquote {
+    font-size: 1.6rem;
+    margin-bottom: 2em;
+}
+
+.profile-bio blockquote::before {
+    font-size: 8rem;
+    top: -15px;
+}
+
+@media (max-width: 640px) {
+    .site-content {
+        max-width: none;
+    }
+
+    .profile-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}

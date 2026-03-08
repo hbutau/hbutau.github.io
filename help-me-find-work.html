@@ -2,36 +2,37 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
 	<head>
 		<link href="http://gmpg.org/xfn/11" rel="profile">
-        <link rel="me" href="https://fosstodon.org/@hamub">Mastodon>
+        <link rel="me" href="https://fosstodon.org/@hamub">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 
 		<!-- Metadata -->
-	<meta name="description" content="Blog by Humphrey Butau. Community Organizer, Loves open source software programming and 🏃runnning">
-	<meta property="og:description" content="Blog by Humphrey Butau. Community Organizer, Loves open source software programming and 🏃runnning">
+	<meta name="description" content="Blog by Humphrey Butau. Community Organizer, Loves open source software programming and 🏃running" />
+	<meta property="og:description" content="Blog by Humphrey Butau. Community Organizer, Loves open source software programming and 🏃running" />
 	<meta property="og:title" content="Please help me find work" />
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content="/help-me-find-work.html" />
-	<meta property="og:image" content="/" />
-		<!-- <meta property="og:image" content="/images/hamub-pic.jpg" /> -->
 
 		<!-- Enable responsiveness on mobile devices-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-		<title>Hamub</title>
+		<title>Hamub - Please help me find work</title>
 
 		<!-- CSS -->
-		<link href="//fonts.googleapis.com/" rel="dns-prefetch">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Merriweather:ital,wght@1,900&family=Plus+Jakarta+Sans&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
-		<!-- <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Abril+Fatface|PT+Sans:400,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet"> -->
-
-
-		<link rel="stylesheet" href="/theme/css/poole.css" />
-		<link rel="stylesheet" href="/theme/css/hyde.css" />
-		<link rel="stylesheet" href="/theme/css/syntax.css" />
-			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Libre+Baskerville|Montserrat|Playfair+Display|Tangerine">
+		<style>
+@font-face {
+font-family: "libretto-icons";
+src:url(/theme/libretto/fonts/libretto-icons.eot);
+src:url(/theme/libretto/fonts/libretto-icons.eot?#iefix) format("embedded-opentype"),
+url(/theme/libretto/fonts/libretto-icons.woff) format("woff"),
+url(/theme/libretto/fonts/libretto-icons.ttf) format("truetype"),
+url(/theme/libretto/fonts/libretto-icons.svg#libretto-icons) format("svg");
+font-weight: normal;
+font-style: normal;
+}
+		</style>
+		<link rel="stylesheet" href="/theme/libretto/css/libretto_styles.css">
 
 		<!-- Feeds -->
 
@@ -39,86 +40,123 @@
 
 	</head>
 
-	<body class="theme-base-08">
-<div class="sidebar">
-	<div class="container">
-		<div class="sidebar-about">
+	<body>
+    <!-- Navigation bar -->
+    <header class="nav-bar">
+        <div class="site-branding">
+            <h1 class="site-title">
+                <a href="/" title="Hamub" rel="home">Hamub</a>
+            </h1>
+        </div>
+        <nav class="site-navigation" role="navigation">
+            <div class="menu-toggle">
+                <span class="mobile-site-title">Hamub</span>
+            </div>
+            <ul class="menu">
+                <li><a href="/posts.html">Posts</a></li>
+                <li><a href="https://slides.com">slides</a></li>
+                <li><a href="/">Home</a></li>
+            </ul>
+        </nav>
+    </header>
 
-			<h1>
-				<a href="/">
-					<img class="profile-picture" src="/images/hamub-pic.jpg">
-					Hamub
-				</a>
-			</h1>
-			<p class="lead"></p>
-			<p class="lead">Blog by Humphrey Butau. Community Organizer, Loves open source software programming and 🏃runnning </p>
-			<p></p>
-		</div>
-        <a href="posts.html">Posts</a>
-			<ul class="sidebar-nav">
-					<li><a href="http://localhost:3000/pages/talks/index.html">talks</a></li>
-					<li><a href="/">Home</a></li>
-			</ul>
-		<nav class="sidebar-social">
-					<a class="sidebar-social-item" href="mailto:hbutau35@gmail.com" target="_blank">
-						<i class="fa fa-envelope"></i>
-            <!-- <image style="height:20px;width:20px;margin:1px;color:white;"  src="images/icons/envelope.png"> -->
-					</a>
-					<a class="sidebar-social-item" href="https://fosstodon.org/@hamub" target="_blank">
-						<i class="fa fa-mastodon"></i>
-            <!-- <image style="height:20px;width:20px;margin:1px;color:white;"  src="images/icons/mastodon.png"> -->
-					</a>
-					<a class="sidebar-social-item" href="https://github.com/hbutau" target="_blank">
-						<i class="fa fa-github"></i>
-            <!-- <image style="height:20px;width:20px;margin:1px;color:white;"  src="images/icons/github.png"> -->
-					</a>
-					<a class="sidebar-social-item" href="https://gitlab.com/hbutau" target="_blank">
-						<i class="fa fa-gitlab"></i>
-            <!-- <image style="height:20px;width:20px;margin:1px;color:white;"  src="images/icons/gitlab.png"> -->
-					</a>
-					<a class="sidebar-social-item" href="https://stackoverflow.com/users/5022711/humphrey-butau" target="_blank">
-						<i class="fa fa-stack-overflow"></i>
-            <!-- <image style="height:20px;width:20px;margin:1px;color:white;"  src="images/icons/stack-overflow.png"> -->
-					</a>
-			<!-- <a class="sidebar-social-item" href="/"> -->
-				<!-- <i class="fa fa-rss"></i> -->
-			<!-- </a> -->
-		</nav>
-			<p class="sidebar-footer">Proudly powerd by <a href="https://getpelican.org">Pelican</a> which takes great advantage of <a href="https://python.org">Python</a></p>
-	</div>
-</div>		<div class="content container">
-<div class="post">
-<!-- <div class="gfm-embed" data-url="https://www.gofundme.com/f/djangocon-africa-financial-assistance-fund/widget/small"></div> -->
-	<h1 class="post-title">Please help me find work</h1>
-	<span class="post-date">Sat 24 February 2024</span>
-	<blockquote class="pull-quote">
-Note this post is a ripoff  of <a class="reference external" href="https://treypiepmeier.com/words/2023/06/lets-work-together">Trey Piepmeier’s</a> , which is also a ripoff of <a class="reference external" href="https://www.librarian.net/stax/5382/the-work-i-want/">Jessamyn West’s</a></blockquote>
-<div class="section" id="i-am-looking-for-work">
-<h2>I am looking for work</h2>
-<p>I am currently looking for working opportunities  in the field of web development. I am specifically interested in a backend role, but feel free to connect me with anything that suits a Level 2 IT support person who has transitioned to web development.
-I have been working in the IT industry for close to twenty years. I made the transition from a Level 2 IT support role to a programmer because I have always enjoyed programming.</p>
+		<div class="site-content">
+<article class="format-standard libretto-long-form">
+	<div class="entry-content">
+	<div class="post">
+	<h1 class="post-title entry-title">Please help me find work</h1>
+	<span class="entry-meta">Sat 24 February 2024</span>
+	<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This post is inspired by <a class="reference external" href="https://treypiepmeier.com/words/2023/06/lets-work-together">Trey Piepmeier's &quot;Lets work together&quot;</a>,  which is also a ripoff of <a class="reference external" href="https://www.librarian.net/stax/5382/the-work-i-want/">Jessamyn West's &quot;The work I want&quot;</a></p>
 </div>
-<div class="section" id="what-i-know-now">
-<h2>What I know now:</h2>
-<p>I have been sharpening my skills in Python, Django, HTML, and CSS over time, mastering the ability to transform ideas into functional web applications. I am enthusiastic about the emerging technologies of Htmx, Alpine.js, and Tailwind CSS. Recently, I have also been exploring Aiohttp Server to gain a better understanding of asynchronous programming and the Asyncio Library.</p>
-<p>I have been actively involved in the Python community as a volunteer, assisting with organizing DjangoCon, Africa, PyCon Zimbabwe, Django Indaba, and speacking at PyCon Namibia, Djangocon Europe. I am comfortable working from either the office, home, or a combination of both.</p>
+<hr class="docutils" />
+<p>I have spent the better part of two decades in tech, first as a Level 2 IT support
+professional, then trained through Team Treehouse as a  web developer, and most importantly, as someone who
+builds and nurtures technical communities. If you're looking for a person who can bridge
+the gap between technology and people, I might be exactly who you need.</p>
+<div class="section" id="who-i-am">
+<h2>Who I Am</h2>
+<p>I am a community builder and tech organiser based in Zimbabwe. My work lives at the
+intersection of open-source software, developer education, and grassroots community growth.
+I have helped bring DjangoCon Africa and PyCon Zimbabwe to life, not just as events, but
+as spaces where African developers find belonging, mentorship, and opportunity. I have also
+spoken at PyCon Namibia and DjangoCon Europe, and contributed to Django Indaba.</p>
+<p>While I can write code and do, regularly my deepest skill is in creating the
+conditions where developers thrive collectively.</p>
 </div>
+<div class="section" id="what-i-bring-to-the-table">
+<h2>What I Bring to the Table</h2>
+<ul class="simple">
+<li><strong>Community architecture</strong> - building programs, spaces, and cultures that attract and
+retain developers</li>
+<li><strong>Event organisation</strong> - end-to-end experience running DjangoCon Africa and PyCon Zimbabwe</li>
+<li><strong>Technical communication</strong> - translating complex ideas for diverse audiences, on stage
+and in writing</li>
+<li><strong>Python / Django web development</strong> - building functional applications with a focus on
+backend logic</li>
+<li><strong>AI-augmented workflows</strong> - I use AI tools heavily and effectively to move faster,
+think better, and deliver more</li>
+</ul>
+</div>
+<div class="section" id="the-kind-of-work-i-m-looking-for">
+<h2>The Kind of Work I'm Looking For</h2>
+<p>I am most energised by roles that put community at the centre. Think Developer Relations,
+Developer Advocacy, Community Management, or Program Management within a technical
+organisation. I am also open to roles that blend community work with hands-on building
+whether that's at a startup, an open-source foundation, or a company that genuinely invests
+in its developer ecosystem.</p>
+<p>I am comfortable working remotely, in-office, or in a hybrid arrangement.</p>
+</div>
+<div class="section" id="a-word-on-how-i-work-today">
+<h2>A Word on How I Work Today</h2>
+<p>I have leaned into AI as a genuine work partner. I use it to draft, research, debug, plan,
+and iterate which means I ship faster and think more clearly than I did working alone.
+I am not precious about &quot;doing it myself&quot;; I care about outcomes. If you're looking for
+someone who treats AI as a multiplier rather than a threat, that's me.</p>
+</div>
+<hr class="docutils" />
 <div class="section" id="get-in-touch">
-<h2>Get In Touch</h2>
-<p>If you know of any opportunities that align with my skill-set, please reach out at hbutau35(at)gmail.com.</p>
+<h2>Get in Touch</h2>
+<p>If you know of something that fits, or just want to talk, please reach out:</p>
+<div class="line-block">
+<div class="line"><strong>Email:</strong> <a class="reference external" href="mailto:hbutau35&#64;gmail.com">hbutau35&#64;gmail.com</a></div>
+</div>
+<p>I am especially grateful for introductions within the African tech ecosystem, open-source
+organisations, and any company that believes developer communities are worth investing in.</p>
 </div>
 
 
-		<span class="post-tags">
+		<span class="entry-meta tag-list">
 			Tags:
 			<ul>
-					<li><a href="/tag/fedihire.html">#FediHire</a></li>
-					<li><a href="/tag/getfedihired-fedijobs-django.html">#GetFediHired #Fedijobs  #django</a></li>
+					<li><a href="/tag/fedihire.html">FediHire</a></li>
+					<li><a href="/tag/getfedihired.html">GetFediHired</a></li>
+					<li><a href="/tag/fedijobs.html">Fedijobs</a></li>
+					<li><a href="/tag/django.html">django</a></li>
 			</ul>
 		</span>
 
 </div>
-
+	</div>
+</article>
 		</div>
+
+    <!-- Page Footer -->
+    <section class="footer-sidebar clear" role="complementary">
+        <div class="widget-block">
+            <aside class="widget">
+                <h2 class="widget-title">Hamub</h2>
+                <div class="widget-text">Blog by Humphrey Butau. Community Organizer, Loves open source software programming and 🏃running</div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Site Attributions -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="site-info">
+            <p>Proudly powered by <a href="https://getpelican.org">Pelican</a> which takes great advantage of <a href="https://python.org">Python</a></p>
+        </div>
+    </footer>
 	</body>
 </html>
